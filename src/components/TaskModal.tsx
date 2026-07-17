@@ -31,7 +31,7 @@ const priorityDot: Record<Priority, string> = {
 }
 
 const buildTaskId = () => {
-  return `TASK-${Math.floor(1 + Math.random() * 900)}`
+  return crypto.randomUUID?.() ?? `${Date.now()}`
 }
 
 const TaskModal = ({ open, task, onCancel, onDelete, onSave }: TaskModalProps) => {
