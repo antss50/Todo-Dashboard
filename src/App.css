@@ -1,0 +1,49 @@
+.task-detail-modal .ant-modal-content {
+  overflow: hidden;
+  padding: 0;
+  border-radius: 12px;
+  box-shadow: 0 28px 80px rgba(20, 28, 45, 0.28);
+}
+
+.task-detail-modal .ant-modal-header {
+  margin: 0;
+  padding: 30px 24px 24px;
+  border-radius: 12px 12px 0 0;
+}
+
+.task-detail-modal .ant-modal-close {
+  top: 28px;
+  right: 28px;
+}
+
+.task-detail-modal .ant-form-item {
+  margin-bottom: 22px;
+}
+
+.task-detail-modal .ant-form-item-label > label,
+.task-detail-modal .ant-picker,
+.task-detail-modal .ant-select-selector {
+  font-weight: 700;
+}
+
+.task-detail-modal .ant-form-item-label > label {
+  color: #727b8f;
+  font-size: 12px;
+}
+
+.task-detail-modal .ant-input,
+.task-detail-modal .ant-picker,
+.task-detail-modal .ant-select-selector {
+  border-color: #d5dbe8 !important;
+  box-shadow: none !important;
+}
+
+.task-detail-modal .ant-input-textarea-show-count::after {
+  color: #858da0;
+  font-size: 12px;
+}
+
+.ant-modal-mask {
+  background-color: rgba(34, 39, 50, 0.38) !important;
+  backdrop-filter: blur(2px);
+}
