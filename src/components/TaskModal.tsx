@@ -154,7 +154,9 @@ const TaskModal = ({ open, task, onCancel, onDelete, onSave }: TaskModalProps) =
               <Select
                 className="h-10"
                 options={statusOptions.map((status) => ({
-                  label: status === 'In Progress' ? 'Đang thực hiện' : status,
+                  label: status === 'To Do' ? 'Cần thực hiện' 
+                         : status === 'In Progress' ? 'Đang thực hiện' 
+                          : 'Hoàn thành',
                   value: status,
                 }))}
               />
