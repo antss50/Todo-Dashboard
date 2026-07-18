@@ -65,7 +65,7 @@ const TaskModal = ({ open, task, onCancel, onDelete, onSave }: TaskModalProps) =
     Modal.confirm({
       title: (
         <span>
-          Bạn có chắc chắn muốn xóa công việc này?
+          Bạn có chắc chắn muốn xóa?
         </span>
       ),
       okText: 'Xóa',
